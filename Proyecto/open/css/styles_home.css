@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lora&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: #FFF;
+
+}
+
+.info{
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #fff;
+    padding: 20px;
+    
+}
+
+.info h3 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+
+
+.sidebar{
+    position: absolute;
+    width: 60px;
+    height: 100 hv;
+    background: #F1F0E8;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.sidebar:hover{
+    width: 300px;
+}
+
+.sidebar ul{
+    position: relative;
+    height: 100vh;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li:hover{
+    background: #f3f3f3;
+}
+
+.sidebar ul li a{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar ul li a .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.sidebar ul li a .text{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom .imgBx{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bottom .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+

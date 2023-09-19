@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu lateral</title>
+    <link rel="stylesheet" href="css/styles_open.css">
+</head>
+<body>
+    <!--se refiere a elementos laterales tanto por derecha o izquierda-->
+    <div class="sidebar">
+        <!--lista desordenada-->
+        <ul>
+            <!--lista-->
+            <li class="logo">
+                <!--ancla para vincular con otra cosa-->
+                 <a href="#">
+                    <span class="icon"><ion-icon name="document-lock"></ion-icon></span>
+                    <span class="text">MACAP</span>
+                 </a>   
+            </li>
+            <li>
+                <a href="#Home">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></ion-icon></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#Details">
+                    <span class="icon"><ion-icon name="add-outline"></ion-icon></span>
+                    <span class="text">Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="#more">
+                    <span class="icon"><ion-icon name="accessibility-outline"></ion-icon></span>
+                    <span class="text">More info</span>
+                </a>
+            </li>
+            <li>
+                <a href="#Contact">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">Contact US</span>
+                </a>
+            </li>
+            <div class="bottom">
+                <li>
+                    <a href="login.html">
+                        <span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>
+                        <span class="text">Login</span>
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <section class="Home" id="Home">
+        <div class="content">
+            <h3>MACAP <span>Software de Gestión de Ventas y Control de Inventario</span></h3>
+            <p>Administra tu inventario de manera eficiente y registra nuevos
+             productos. MACAP es la herramienta completa que tu empresa necesita para llevar un control eficiente de ventas e inventario. Simplifica tus operaciones, aumenta la eficiencia y toma decisiones informadas con nuestro software de gestión.</p>
+            <a href="#" class="btn">More details</a>
+        
+        </div>
+        <div class="image">
+            <img src="img/carga.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="Details" id="Details">
+        <h1 class="Heading">¿Qué Puedes Hacer con MACAP?</h1>
+        <div class="caja-contenedor">
+            <div class="caja">
+                <img src="img/checklist.png" alt="">
+                <h3>Control Total sobre tus Operaciones</h3>
+                <p>Registro y Control de Productos:Mantén un registro detallado de todos tus productos y supervisa tus existencias en tiempo real.</p>
+                <p>Gestión de Ventas Eficiente: Simplifica tus ventas con herramientas avanzadas de gestión de pedidos y clientes.</p>
+
+            </div>
+            <div class="caja">
+                <img src="img/Control-stock.png" alt="">
+                <h3>Información Accesible para Decisiones Inteligentes</h3>
+                <p>Informes y Análisis Potentes: Genera informes personalizados y análisis que te proporcionan información valiosa para tomar decisiones estratégicas.</p>
+                
+            </div>
+
+            <div class="caja">
+                <img src="img/clientes-proveedores.png" alt="">
+                <h3>Relaciones Clientes-Proveedores más Fuertes</h3>
+                <p>Clientes Satisfechos: Construye relaciones sólidas con tus clientes al mantener un registro de sus compras, preferencias y necesidades.</p>
+                <p>Proveedores Confiables: Administra tus relaciones comerciales con proveedores de manera eficaz. Mantén registros de tus transacciones y simplifica la comunicación.</p>
+            </div>      
+        </div>
+
+    <section class="more" id="more">
+        <h1 class="Heading">More Info</h1>
+        <div class="columna">
+            <div class="image">
+                <img src="img/manejo.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Tu Éxito es Nuestra Prioridad</h3>
+                <p>En MACAP, estamos comprometidos a brindarte las herramientas que necesitas para tener éxito en el competitivo mundo de los negocios. Gracias por elegirnos como tu socio de negocios.</p>
+                <p>Nuestra misión es impulsar tu éxito empresarial. Entendemos los desafíos que enfrentas y estamos aquí para apoyarte en cada paso del camino. Creemos que el crecimiento y el progreso son posibles cuando se tienen las herramientas adecuadas, y en MACAP, hemos creado esas herramientas para ti.</p>
+                <p>Creemos en el potencial ilimitado de tu negocio y en tu capacidad para superar cualquier obstáculo. Con MACAP como tu socio tecnológico, tienes acceso a las herramientas y recursos que necesitas para tomar decisiones informadas, gestionar eficazmente tus operaciones y satisfacer las necesidades de tus clientes. Estamos aquí para potenciar tu visión y ayudarte a alcanzar tus metas.</p>
+                <p>Si alguna vez necesitas ayuda, nuestro equipo de soporte está disponible para responder tus preguntas y ayudarte a aprovechar al máximo MACAP.</p>
+            </div>
+        </div>
+    </section >
+    
+    <section class="Contact" id="Contact">
+        <div class="suscribete">
+            <h3>Macap</h3>
+            <p>Contacto y Soporte </p>
+            <span>Soporte: support@macap.com</span>
+            <p>Recursos Útiles </p>
+            <span>Tutoriales</span>
+            <p>Suscríbete </p>
+            <span>Recibe actualizaciones y ofertas especiales.</span>
+            <form action="">
+                <input type="email" placeholder="Ingresa tu email">
+                <input type="submit" value="Suscribete">
+            </form>
+        </div>  
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

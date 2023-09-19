@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/style_proveedor.css">
+</head>
+<body>
+    <h1>Proveedor</h1>
+    <div class="lista">
+        <div class="inicial">
+            <h3>Buscar por inicial</h3>
+            <div class="input-info">
+                <label class="info-label">Inicial</label>
+                <input type="text">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+                </a>
+            </div>
+        </div>
+        <div class="nombre_apellido">
+            <h3>Buscar por apellido</h3>
+            <div class="input-info">
+                <label class="info-label">Nombre o apellido</label>
+                <input type="text">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="productos"> 
+        <div class="more">
+            <form action="#" class="formulario" autocomplete="off">   
+                <div class="input-info">
+                    <label class="info-label">Nombre Empresa:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Nombre Representante legal:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Direccion postal:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Email:</label>
+                    <input type="email">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">NIF o CIF:</label>
+                    <input type="text">
+                </div>
+            </form>
+         </div>
+
+        <div class="info">
+            <form action="#" class="formulario" autocomplete="off">
+                
+                <div class="input-info">
+                    <label class="info-label">Teléfono:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Nombre del Banco:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Numero de Cuenta:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label"> Producto Comprado:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Cantidad del producto:</label>
+                    <input type="text">
+                </div>
+            </form>
+        </div> 
+
+        <div class="mas">
+            <form action="#" class="formulario" autocomplete="off">
+                <div class="sobre">
+                    <h3>Información adicional: </h3>
+                    <div class="coment">
+                    <textarea rows="4" placeholder="Escribe aquí la descripción..."></textarea>
+                    </div>
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Tipo:</label>
+                    <input type="checkbox"id="cbox2" value="first_checkbox" />
+                    <label for="cbox2">Contado</label>
+                    <input type="checkbox"id="cbox2" value="Sec_checkbox" />
+                    <label for="cbox2">Credito</label>
+                    <input type="checkbox"id="cbox2" value="third_checkbox" />
+                    <label for="cbox2">Debito</label>
+                </div>
+            </form>
+        </div> 
+
+        <div class="botton">
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="document-outline"></ion-icon></span>
+                <span class="text">Nuevo</span>
+            </a>
+        
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="save-outline"></ion-icon></span>
+                <span class="text">Guardar</span>
+            </a>
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="reload-outline"></ion-icon></span>
+                <span class="text">Actualizar</span>
+            </a>
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="trash-outline"></ion-icon></span>
+                <span class="text">Eliminar</span>
+            </a>
+        </div>  
+    </div> 
+
+    <div class="describe">
+        <div class="fecha">
+            <p>Fecha de compra:</p>
+            <input type="text" id="dia" placeholder="Día">
+            <input type="text" id="mes" placeholder="Mes">
+            <input type="text" id="ano" placeholder="Año">
+        </div>
+        </div>
+    </div>
+
+    <div class="resumen-compra">
+        <h1>Resumen de Compra</h1>
+        <div class="proveedor-info">
+            <h2>Proveedor: Proveedor XYZ</h2>
+            <p>Dirección: Calle Principal #123</p>
+            <p>Teléfono: (123) 456-7890</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto A</td>
+                    <td>5</td>
+                    <td>$10.00</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>Producto B</td>
+                    <td>3</td>
+                    <td>$15.00</td>
+                    <td>$45.00</td>
+                </tr>
+                <!-- Agrega más filas según sea necesario -->
+            </tbody>
+        </table>
+        <div class="total-compra">
+            <p>Total de la Compra: <strong>$95.00</strong></p>
+        </div>
+    </div>
+
+    
+
+
+    
+
+    <div class="botton">
+        <a href="home.html" class="btn-c">
+            <span class="icon"><ion-icon name="close-circle-outline"></ion-icon></span>
+            <span class="text">Cerrar</span>
+        </a>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

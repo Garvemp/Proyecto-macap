@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lora&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    min-height: 100vh;
+    background: #FFF;
+
+}
+
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+    margin-left: 6rem;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: #8ECDDD;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+
+}
+
+.Heading{
+    text-align: center;
+    background: #8ECDDD;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+
+
+
+
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Home .image img{
+    width: 40vw;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+
+.Home .content h3{
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.Home .content h3 span{
+    color: #8ECDDD;
+    text-transform: none;
+    font-size: 3.8rem;
+}
+
+.Home .content p{
+    font-size: 1.5rem;
+    color: #3F2E3E;
+    padding: 1rem 0;
+}
+
+.Details .caja-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Details .caja-contenedor .caja{
+    flex: 1 1 30rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1 rem rgba(0, 0, 0, .1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.Details .caja-contenedor .caja img{
+    height: 25rem;
+}
+
+.Details .caja-contenedor .caja h3{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+
+}
+
+
+.Details .caja-contenedor .caja p{
+    font-size: 1.5rem;
+    color: #3F2E3E;
+    padding: 1rem 0;
+
+}
+
+.more{
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+}
+
+.more .columna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.more .columna .image{
+    flex: 1 1 40rem;
+
+}
+
+.more .columna .image img{
+    width: 100%;
+
+}
+
+.more .columna .content{
+    flex: 1 1 40rem;
+
+}
+
+.more .columna .content h3{
+    font-size: 2rem;
+    color: #3F2E3E;
+
+}
+
+.more .columna .content p{
+    font-size: 1.5rem;
+    color: #3F2E3E;
+    padding: 1rem 0;
+}
+
+
+.Contact .suscribete{
+    text-align: center;
+    padding: 5rem 1rem;
+    background: #8ECDDD;
+    background-size: cover;
+    background-position: center;
+}
+
+.Contact .suscribete h3{
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+
+.Contact .suscribete p{
+    color: #352F44;
+    font-size: 1.8rem;
+    
+}
+
+.Contact .suscribete span{
+    color: #F5F5DC;
+    font-size: 1.3rem;
+    margin: .2rem auto;
+    
+}
+
+.Contact .suscribete form{
+    display: flex;
+    max-width: 70rem;
+    border: .2rem solid #8ECDDD;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin: .2rem auto;
+    height: 5.5rem;
+
+}
+
+.Contact .suscribete form input[type="email"]{
+    padding: 2rem 2rem;
+    font-size: 1.7rem;
+    background: none;
+    width: 100%;
+    color: white;
+    text-transform: none;
+    border-radius: 5rem;
+    background: none;
+}
+
+.Contact .suscribete form input[type="email"]::placeholder{
+   color: #4F709C; 
+   text-transform: capitalize;
+}
+
+.Contact .suscribete form input[type="submit"]{
+    background: #E4F1FF;
+    width: 20rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .1);
+}
+
+.Contact .suscribete form input[type="submit"]:hover{
+    color: 4F709C;
+}
+
+
+
+@media(max-width:1200px){
+    section{
+        padding: 0 3%;
+        padding-top: 7.5rem;
+        
+
+    }
+}
+
+@media(max-width:768px){
+    .Home{
+        flex-flow: column-reverse;
+    }
+
+    .Home .image img{
+        width: 100%;
+    }
+
+    .Home .content h3{
+        font-size: 3.6rem;
+    }
+
+    .Home .content p{
+        font-size: 1.5rem;
+
+    }
+
+    .more{
+        background-position: right;
+    }
+
+    .suscribete p{
+        width: auto;
+    }
+
+    .suscribete span{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+.sidebar{
+    position: absolute;
+    width: 60px;
+    height: 100 hv;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.sidebar:hover{
+    width: 300px;
+}
+
+.sidebar ul{
+    position: relative;
+    height: 100vh;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li:hover{
+    background: #f3f3f3;
+}
+
+.sidebar ul li a{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar ul li a .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.sidebar ul li a .text{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.sidebar ul li.logo{
+    margin-bottom: 50px;
+}
+
+.sidebar ul li.logo:hover{
+    background: #fff;
+}
+
+.sidebar ul li.logo .icon{
+    font-size: 2em;
+}
+
+.sidebar ul li.logo .text{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom .imgBx{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bottom .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+

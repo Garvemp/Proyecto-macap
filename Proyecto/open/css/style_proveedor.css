@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background: #B9B4C7;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 1.5rem 2rem;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    justify-content: space-between;
+    margin: 0 2rem; /* Espaciado negativo para compensar el espacio en los márgenes de los elementos */
+}
+
+.lista .inicial h3{
+    justify-content: center;
+}
+
+.inicial,
+.nombre_apellido {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #B9B4C7;
+    margin: 10px; /* Espaciado entre los elementos */
+    font-size: 1.1rem;
+    
+}
+
+.nombre_apellido input{
+    font-size: .6;
+    padding: 3px;
+}
+
+.inicial input{
+    font-size: .6;
+    padding: 3px;
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap; /* Envuelve los elementos en pantallas pequeñas */
+    justify-content: space-between;
+    margin: 0 2rem; /* Espaciado lateral reducido para todas las pantallas */
+    padding: 1rem; /* Agrega espacio alrededor del contenedor en todas las pantallas */
+}
+
+.sobre{
+    display: flex; /* Establece el contenedor como un flex container */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    justify-content: center;
+    flex-wrap: wrap; /* Envuelve los elementos en pantallas pequeñas */
+    margin: 0 2rem; /* Espaciado lateral reducido para todas las pantallas */
+    padding: 1rem;
+}
+
+.sobre h3{
+    font-size: 1.1rem;
+    margin-right: 10px; /* Agrega espacio entre el párrafo y los campos de entrada */
+
+}
+
+.sobre .coment textarea {
+    width: 600px; /* Ocupa el ancho completo del contenedor .coment */
+    max-width: 100%; /* Establece un máximo de ancho para asegurar que no desborde su contenedor */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho total */
+    resize: vertical; /* Permite al usuario redimensionar verticalmente */
+    font-size: 16px;
+}
+
+.more,
+.info,
+.mas,
+.botton {
+    flex: 1; /* Los elementos ocupan el espacio disponible de manera equitativa */
+    margin-right: 10px; /* Añade margen derecho para separación entre elementos */
+}
+
+
+
+
+
+.info .formulario,
+.more .formulario {
+    width: 60%; /* Ancho completo en todas las pantallas */
+}
+
+.botton .btn {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-decoration: none;/*se quital subrayado*/
+    font-size: 1.1rem;/*Tamaño letra*/
+    color: #000;/*color letra*/
+    border: 1px solid #CCC;
+    border-radius: .5rem;
+    padding: 5px;
+    margin: 0.6rem ; /* Espaciado vertical entre botones */
+    margin-right: 0;
+}
+
+.botton .btn:hover {
+    box-shadow: inset -4px -4px 15px rgba(163, 234, 119, 0.1), 4px 4px 15px rgba(0, 0, 0, 1);
+}
+
+.productos .formulario .input-info {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.productos .formulario input {
+    padding: 4px;
+}
+
+.botton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+.describe {
+    display: flex; /* Establece el contenedor como un flex container */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    justify-content: center;
+    flex-wrap: wrap; /* Envuelve los elementos en pantallas pequeñas */
+    margin: 0 2rem; /* Espaciado lateral reducido para todas las pantallas */
+    border: 1px solid #B9B4C7;
+    padding: 1rem;
+}
+
+.describe .fecha {
+    display: flex; /* Establece el contenedor interno como un flex container */
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    justify-content: space-between;
+
+}
+
+.describe .fecha p {
+    margin-right: 10px; /* Agrega espacio entre el párrafo y los campos de entrada */
+    font-size: 1.1rem;/*Tamaño letra*/
+}
+
+.describe .fecha input{
+    padding: 4px;
+    margin-right: 8px;
+}
+
+
+.resumen-compra {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resumen-compra h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.proveedor-info h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.proveedor-info p {
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td {
+    text-align: center;
+}
+
+.total-compra {
+    margin-top: 20px;
+}
+
+.total-compra p {
+    font-size: 1.2rem;
+}
+
+.total-compra strong {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+
+
+.botton .btn-c {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-decoration: none;/*se quital subrayado*/
+    font-size: 1.1rem;/*Tamaño letra*/
+    color: #000;/*color letra*/
+    border: 1px solid #CCC;
+    border-radius: .5rem;
+    padding: 5px;
+    margin: 0.6rem ; /* Espaciado vertical entre botones */
+    margin-right: 5px;
+    right: 20px; 
+    
+}
+
+@media screen and (min-width: 768px) {
+    /* Estilos para pantallas medianas y grandes */
+    .productos {
+        margin: 0 4rem; /* Ajusta el espaciado lateral para pantallas medianas y grandes */
+    }
+
+    .more,
+    .info,
+    .mas,
+    .botton {
+        width: calc(33.33% - 20px); /* Divide en columnas en pantallas medianas y grandes */
+        margin: 0 10px; /* Espacio horizontal entre elementos */
+    }
+    .inicial,
+    .nombre_apellido {
+        margin: 10px 0; /* Espaciado vertical en pantallas pequeñas */
+        flex-basis: calc(50% - 20px); /* Ancho del 50% con espacio entre elementos */
+    }
+    .resumen-compra {
+        padding: 10px;
+    }
+    table {
+        font-size: 0.8rem;
+    }
+}

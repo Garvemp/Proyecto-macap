@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/style_cliente.css">
+</head>
+<body>
+    <h1>Cliente</h1>
+    <div class="lista">
+        <div class="inicial">
+            <h3>Buscar por inicial</h3>
+            <div class="input-info">
+                <label class="info-label">Inicial</label>
+                <input type="text">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+                </a>
+            </div>
+        </div>
+        <div class="nombre_apellido">
+            <h3>Buscar por apellido</h3>
+            <div class="input-info">
+                <label class="info-label">Nombre o apellido</label>
+                <input type="text">
+                <a href="#" class="btn">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="productos"> 
+        <div class="more">
+            <form action="#" class="formulario" autocomplete="off">   
+                <div class="input-info">
+                    <label class="info-label">N° Factura:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Vendedor:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Nombre:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Apellido:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Id Cliente:</label>
+                    <input type="text">
+                </div>
+            </form>
+         </div>
+
+        <div class="info">
+            <form action="#" class="formulario" autocomplete="off">
+                
+                <div class="input-info">
+                    <label class="info-label">Teléfono:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Ciudad:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Estado:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Dirección:</label>
+                    <input type="text">
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Email:</label>
+                    <input type="email">
+                </div>
+            </form>
+        </div> 
+
+        <div class="mas">
+            <form action="#" class="formulario" autocomplete="off">
+                <div class="sobre">
+                    <h3>Descripción del Producto: </h3>
+                    <div class="coment">
+                    <textarea rows="4" placeholder="Escribe aquí la descripción..."></textarea>
+                    </div>
+                </div>
+                <div class="input-info">
+                    <label class="info-label">Tipo:</label>
+                    <input type="checkbox"id="cbox2" value="first_checkbox" />
+                    <label for="cbox2">Contado</label>
+                    <input type="checkbox"id="cbox2" value="Sec_checkbox" />
+                    <label for="cbox2">Credito</label>
+                    <input type="checkbox"id="cbox2" value="third_checkbox" />
+                    <label for="cbox2">Debito</label>
+                </div>
+            </form>
+        </div> 
+
+        <div class="botton">
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="document-outline"></ion-icon></span>
+                <span class="text">Nuevo</span>
+            </a>
+        
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="save-outline"></ion-icon></span>
+                <span class="text">Guardar</span>
+            </a>
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="reload-outline"></ion-icon></span>
+                <span class="text">Actualizar</span>
+            </a>
+            <a href="#" class="btn">
+                <span class="icon"><ion-icon name="trash-outline"></ion-icon></span>
+                <span class="text">Eliminar</span>
+            </a>
+        </div>  
+    </div> 
+
+    <div class="describe">
+        <div class="fecha">
+            <p>Fecha de compra:</p>
+            <input type="text" id="dia" placeholder="Día">
+            <input type="text" id="mes" placeholder="Mes">
+            <input type="text" id="ano" placeholder="Año">
+        </div>
+        </div>
+    </div>
+
+    
+
+    
+
+
+    <div class="resumen-compra">
+        <h2>Resumen de Compra</h2>
+        <div class="subtotal">
+            <p>Subtotal:</p>
+            <p>$100.00</p>
+        </div>
+        <div class="iva">
+            <p>IVA (16%):</p>
+            <p>$16.00</p>
+        </div>
+        <div class="descuento">
+            <p>Descuento:</p>
+            <p>$0.00</p>
+        </div>
+        <div class="total">
+            <p>Total:</p>
+            <p>$116.00</p>
+        </div>
+    </div>
+
+    <div class="botton">
+        <a href="home.html" class="btn-c">
+            <span class="icon"><ion-icon name="close-circle-outline"></ion-icon></span>
+            <span class="text">Cerrar</span>
+        </a>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
